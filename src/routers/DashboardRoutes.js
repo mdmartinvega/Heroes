@@ -13,7 +13,7 @@ export const DashboardRoutes = () => {
               <Routes>
                     <Route path="/" element={<MarvelScreen/>}/>
                     <Route path="marvel" element={<MarvelScreen/>}/>
-                    <Route path="hero" element={<HeroScreen/>}/>
+                    <Route path="hero/:heroId" element={<HeroScreen/>}/>
                     <Route path="dc" element={<DcScreen/>}/>
                     <Route path="search" element={<SearchScreen/>}/>
                 </Routes>
