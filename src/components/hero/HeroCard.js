@@ -12,7 +12,7 @@ export const HeroCard = ({
     const imagePath = `/assets/heroes/${id}.jpg`;
     
     return (
-        <div className="col">
+        <div className="col animate_animated animate_fadeIn">
             <div className="card">
                 <div className="row no-gutters">
                     <div className='col-4'>
